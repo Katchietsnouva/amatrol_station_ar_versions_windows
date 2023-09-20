@@ -240,11 +240,12 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
             color: Colors.white,
           ),
         ),
+        centerTitle: true,
       ),
-    ),
+    );
   }
 
-
+  
   @override
   Widget build(BuildContext context) {
     return uploadFormScreen();
