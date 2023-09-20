@@ -236,6 +236,9 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
       appBar: AppBar(
         title:  Text(
           'Upload New Item',
+          style: TextStyle(
+            
+          ),
         ),
       ),
     )
