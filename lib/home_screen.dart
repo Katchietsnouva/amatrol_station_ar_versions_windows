@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
           'AR Digital Twinning Amatrolling Station',
           style: TextStyle(
             fontSize: 18,
-            letterSpacing: 2,
+            letterSpacing: 5,
             fontWeight: FontWeight.bold,
           ),
         ),
