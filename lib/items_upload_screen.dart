@@ -234,14 +234,14 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
   {
     return Scaffold(
       appBar: AppBar(
-        title:  Text(
+        title: const Text(
           'Upload New Item',
           style: TextStyle(
-            
+            color: Colors.white,
           ),
         ),
       ),
-    )
+    ),
   }
 
 
