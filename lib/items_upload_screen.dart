@@ -19,7 +19,7 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
   TextEditingController itemNameTextEditingController = TextEditingController();
   TextEditingController itemDescriptionTextEditingController = TextEditingController();
   TextEditingController itemPriceTextEditingController = TextEditingController();
-  
+
   bool isUploading = false;
 
   //upload form screen
@@ -45,6 +45,20 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
             color: Colors.white,
           ),
         ),
+
+        actions: [
+          IconButton(
+            onPressed: ()
+            {
+
+            },
+            icon: Icon(
+              Icons.cloud_upload,
+              color: Colors.white,
+            ),
+
+          ),
+        ],
       ),
       body: ListView(
         children: [
