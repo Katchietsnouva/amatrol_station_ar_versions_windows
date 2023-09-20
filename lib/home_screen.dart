@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'items_upload_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -15,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'AR Digital Twinning Amatrol Station',
+          'AR Digital Twinning Amatrolling Station',
           style: TextStyle(
             fontSize: 18,
             letterSpacing: 2,
@@ -26,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
           IconButton(
             onPressed:()
                 {
-                  Navigator.push(context, MaterialPageRoute(builder: (c)=> const ItemsUploadScreen()));
+                  Navigator.push(context, MaterialPageRoute(builder: (c)=> ItemsUploadScreen()));
                 },
             icon: const Icon(
               Icons.add,
