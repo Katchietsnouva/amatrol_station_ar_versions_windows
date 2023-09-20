@@ -244,8 +244,14 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            
+            const Icon(
+              Icons.add_photo_alternate,
+              color: Colors.white,
+              size: 200,
+            )
+
           ],
         ),
       )
