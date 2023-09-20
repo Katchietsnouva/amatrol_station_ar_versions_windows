@@ -74,20 +74,139 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
           ),
 
           // SELLER NAME
-
-          const ListTile(
-            leading: Icon(
+           ListTile(
+            leading: const Icon(
               Icons.person_pin_rounded,
               color: Colors.white,
             ),
             title: SizedBox(
               width: 250,
-                child: TextField(
-                  style: TextStyle(color: Colors.grey),
-                  // controller: sellerNameTextEditingController,
+              child: TextField(
+                style: const TextStyle(color: Colors.grey),
+                controller: sellerNameTextEditingController,
+                decoration: const InputDecoration(
+                  hintText: 'Seller name',
+                  hintStyle: TextStyle(color: Colors.grey),
+                  border: InputBorder.none,
                 ),
+              ),
             ),
-          )
+          ),
+
+          const Divider(
+            color: Colors.white70,
+            thickness: 1,
+          ),
+
+          // SELLER PHONE
+          ListTile(
+            leading: const Icon(
+              Icons.person_pin_rounded,
+              color: Colors.white,
+            ),
+            title: SizedBox(
+              width: 250,
+              child: TextField(
+                style: const TextStyle(color: Colors.grey),
+                controller: sellerPhoneTextEditingController,
+                decoration: const InputDecoration(
+                  hintText: 'Seller phone number',
+                  hintStyle: TextStyle(color: Colors.grey),
+                  border: InputBorder.none,
+                ),
+              ),
+            ),
+          ),
+
+          const Divider(
+            color: Colors.white70,
+            thickness: 1,
+          ),
+
+          // ITEM NAME
+          ListTile(
+            leading: const Icon(
+              Icons.person_pin_rounded,
+              color: Colors.white,
+            ),
+            title: SizedBox(
+              width: 250,
+              child: TextField(
+                style: const TextStyle(color: Colors.grey),
+                controller: sellerPhoneTextEditingController,
+                decoration: const InputDecoration(
+                  hintText: 'Seller phone number',
+                  hintStyle: TextStyle(color: Colors.grey),
+                  border: InputBorder.none,
+                ),
+              ),
+            ),
+          ),
+
+          const Divider(
+            color: Colors.white70,
+            thickness: 1,
+          ),
+
+          // ITEM DESCRIPTION
+          ListTile(
+            leading: const Icon(
+              Icons.person_pin_rounded,
+              color: Colors.white,
+            ),
+            title: SizedBox(
+              width: 250,
+              child: TextField(
+                style: const TextStyle(color: Colors.grey),
+                controller: sellerPhoneTextEditingController,
+                decoration: const InputDecoration(
+                  hintText: 'Item Descrip',
+                  hintStyle: TextStyle(color: Colors.grey),
+                  border: InputBorder.none,
+                ),
+              ),
+            ),
+          ),
+
+          const Divider(
+            color: Colors.white70,
+            thickness: 1,
+          ),
+
+          // ITEM PRICE
+          ListTile(
+            leading: const Icon(
+              Icons.person_pin_rounded,
+              color: Colors.white,
+            ),
+            title: SizedBox(
+              width: 250,
+              child: TextField(
+                style: const TextStyle(color: Colors.grey),
+                controller: itemPriceTextEditingController,
+                decoration: const InputDecoration(
+                  hintText: 'Item price',
+                  hintStyle: TextStyle(color: Colors.grey),
+                  border: InputBorder.none,
+                ),
+              ),
+            ),
+          ),
+
+          const Divider(
+            color: Colors.white70,
+            thickness: 1,
+          ),
+
+
+
+
+
+
+
+
+
+
         ],
       ),
     );

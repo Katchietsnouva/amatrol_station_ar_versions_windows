@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'AR Digital Twinning Amatrolling Station',
+          'AR Digital Twinning Amatrol Station',
           style: TextStyle(
             fontSize: 18,
             letterSpacing: 5,
