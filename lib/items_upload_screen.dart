@@ -19,8 +19,7 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
   TextEditingController itemNameTextEditingController = TextEditingController();
   TextEditingController itemDescriptionTextEditingController = TextEditingController();
   TextEditingController itemPriceTextEditingController = TextEditingController();
-
-
+  
   bool isUploading = false;
 
   //upload form screen
