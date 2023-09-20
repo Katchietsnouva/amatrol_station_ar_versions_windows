@@ -151,7 +151,7 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
           // ITEM DESCRIPTION
           ListTile(
             leading: const Icon(
-              Icons.description_rounded,
+              Icons.price_change_rounded,
               color: Colors.white,
             ),
             title: SizedBox(
