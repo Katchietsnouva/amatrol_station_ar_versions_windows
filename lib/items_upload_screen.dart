@@ -242,10 +242,11 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
         ),
         centerTitle: true,
       ),
+      body
     );
   }
 
-  
+
   @override
   Widget build(BuildContext context) {
     return uploadFormScreen();
