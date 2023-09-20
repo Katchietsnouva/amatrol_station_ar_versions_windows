@@ -1,3 +1,34 @@
+import 'package:amatrol_station_ar_versions_windows/home_screen.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Amatrol Station Dem',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      debugShowCheckedModeBanner: true,
+      home: const HomeScreen(),
+    );
+  }
+}
+
+
+
+
+
+
+
 // import 'package:flutter/material.dart';
 // import 'package:amatrol_station_ar_versions_windows/home_screen.dart';
 // import 'package:amatrol_station_ar_versions_windows/items_upload_screen.dart'; // Import the ItemsUploadScreen if it's in a separate file.
@@ -26,38 +57,3 @@
 //     );
 //   }
 // }
-
-
-
-
-
-
-
-
-
-import 'package:amatrol_station_ar_versions_windows/home_screen.dart';
-import 'package:flutter/material.dart';
-
-
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Amatrol Station Dem',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      debugShowCheckedModeBanner: true,
-      home: const HomeScreen(),
-    );
-  }
-}
-
