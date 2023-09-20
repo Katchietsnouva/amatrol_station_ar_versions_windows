@@ -242,7 +242,13 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
         ),
         centerTitle: true,
       ),
-      body
+      body: Center(
+        child: Column(
+          children: [
+            
+          ],
+        ),
+      )
     );
   }
 
