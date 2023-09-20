@@ -229,6 +229,19 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
     );
   }
 
+  //default screen
+  Widget defaultScreen()
+  {
+    return Scaffold(
+      appBar: AppBar(
+        title:  Text(
+          'Upload New Item',
+        ),
+      ),
+    )
+  }
+
+
   @override
   Widget build(BuildContext context) {
     return uploadFormScreen();
