@@ -101,7 +101,7 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
           // SELLER PHONE
           ListTile(
             leading: const Icon(
-              Icons.person_pin_rounded,
+              Icons.phone_iphone_rounded,
               color: Colors.white,
             ),
             title: SizedBox(
@@ -126,7 +126,7 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
           // ITEM NAME
           ListTile(
             leading: const Icon(
-              Icons.person_pin_rounded,
+              Icons.title,
               color: Colors.white,
             ),
             title: SizedBox(
