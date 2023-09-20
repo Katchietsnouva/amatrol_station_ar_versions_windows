@@ -52,7 +52,7 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
             {
 
             },
-            icon: Icon(
+            icon: const Icon(
               Icons.cloud_upload,
               color: Colors.white,
             ),
