@@ -47,13 +47,16 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
         ),
 
         actions: [
-          IconButton(
-            onPressed: ()
-            {
-            },
-            icon: const Icon(
-              Icons.cloud_upload,
-              color: Colors.white,
+          Padding(
+            padding: const EdgeInsets.all(4.0),
+            child: IconButton(
+              onPressed: ()
+              {
+              },
+              icon: const Icon(
+                Icons.cloud_upload,
+                color: Colors.white,
+              ),
             ),
           ),
         ],
