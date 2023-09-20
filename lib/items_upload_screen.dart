@@ -242,7 +242,7 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
         ),
         centerTitle: true,
       ),
-      body: Center(
+      body:  Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -250,7 +250,23 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
               Icons.add_photo_alternate,
               color: Colors.white,
               size: 200,
-            )
+            ),
+            
+            ElevatedButton(
+              onPressed: ()
+              {
+
+              },
+              child: const Text(
+                'Add New Item',
+                style: TextStyle(
+                  color: Colors.white70,
+                ),
+              ),
+
+            ),
+
+
 
           ],
         ),
