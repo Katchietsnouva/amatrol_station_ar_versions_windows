@@ -133,9 +133,9 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
               width: 250,
               child: TextField(
                 style: const TextStyle(color: Colors.grey),
-                controller: sellerPhoneTextEditingController,
+                controller: itemNameTextEditingController,
                 decoration: const InputDecoration(
-                  hintText: 'Seller phone number',
+                  hintText: 'Item name',
                   hintStyle: TextStyle(color: Colors.grey),
                   border: InputBorder.none,
                 ),
@@ -158,7 +158,7 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
               width: 250,
               child: TextField(
                 style: const TextStyle(color: Colors.grey),
-                controller: sellerPhoneTextEditingController,
+                controller: itemDescriptionTextEditingController,
                 decoration: const InputDecoration(
                   hintText: 'Item Description',
                   hintStyle: TextStyle(color: Colors.grey),
